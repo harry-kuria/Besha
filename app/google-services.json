@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "128937871324",
+    "firebase_url": "https://besha-9284f.firebaseio.com",
+    "project_id": "besha-9284f",
+    "storage_bucket": "besha-9284f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128937871324:android:2bf99c51f5677c7c11f119",
+        "android_client_info": {
+          "package_name": "ultramodern.activity.besha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128937871324-tl7v63a35rifl6s182a0kltm8qb2lacu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0UgTGn_iX630mAMP60OWSGj_4CqyJhj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128937871324-tl7v63a35rifl6s182a0kltm8qb2lacu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

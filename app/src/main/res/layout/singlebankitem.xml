@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/bankimage"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/categoriestext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_85sdp"
+        android:text="Categories"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/otherservices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_85sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:textSize="@dimen/_10ssp"
+        android:text="Service offered" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_marginStart="@dimen/_85sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:text="Time"
+        android:textSize="@dimen/_10ssp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/bankamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_230sdp"
+        android:text="Amount"
+        android:textColor="#F40202"
+        android:textSize="@dimen/_20ssp" />
+
+    <TextView
+        android:id="@+id/bankdate"
+        android:text="Date"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginStart="@dimen/_220sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

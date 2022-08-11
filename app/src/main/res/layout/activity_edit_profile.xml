@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_action_name"
+        android:layout_alignParentTop="true"
+        android:id="@+id/profilepic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilepic"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Username"
+        android:id="@+id/usernameText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:hint="Enter username..."
+        android:id="@+id/profilenameinput"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/profilenameinput"
+        android:id="@+id/emailtext"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailInput"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/emailtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:paddingTop="20dp"
+        android:hint="Email address"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailInput"
+        android:paddingTop="20dp"
+        android:text="Password"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/passwordinput"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordinput"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:hint="Password..."
+        android:id="@+id/passwordinputprofile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:layout_below="@id/passwordinputprofile"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/contactText"
+        android:paddingTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactText"
+        android:inputType="phone"
+        android:paddingTop="20dp"
+        android:hint="+254712345678"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/contactinput"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:text="REGISTER"
+        android:layout_below="@id/contactinput"
+        android:id="@+id/buttonregisterprofile"/>
+
+</RelativeLayout>

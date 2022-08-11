@@ -1,0 +1,4 @@
+<resources>
+	<dimen name="activity_text_view_height">240dp</dimen>
+	<dimen name="activity_text_view_width">756dp</dimen>
+</resources>

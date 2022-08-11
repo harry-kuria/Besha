@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/wallet"
+        android:enabled="true"
+        android:icon="@drawable/my_walleticon"
+        android:title="wallet"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/piechart"
+        android:enabled="true"
+        android:icon="@drawable/piechart"
+        android:title=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/groups"
+        android:enabled="true"
+        android:icon="@drawable/groups"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+</menu>

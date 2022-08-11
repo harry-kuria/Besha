@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/home_in_drawer"
+            android:icon="@drawable/home_icon"
+            android:title="Home">
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/statistics_in_drawer"
+            android:icon="@drawable/statistics_icon_in_drawer"
+            android:title="Statistics">
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/plannedpayments_in_drawer"
+            android:icon="@drawable/plannedpayments_in_drawer"
+            android:title="Planned payments">
+        </item>
+    </group>
+
+</menu>

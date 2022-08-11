@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ultramodern.activity.besha">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.front" />
+    <uses-feature android:name="android.hardware.camera.front.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SingleCard" />
+        <activity android:name=".SingleBank" />
+        <activity android:name=".PlannedPayments" />
+        <activity android:name=".NewGoal" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".RecievePayment_QrCode" />
+        <activity android:name=".RecievePayment_Amount" />
+        <activity android:name=".Pay_AddBusiness_Amount" />
+        <activity android:name=".Pay_AddBusiness_Confirm" />
+        <activity android:name=".Pay_AddBusiness_EnterPin" />
+        <activity android:name=".Pay_AddBusinessNumber" />
+        <activity android:name=".Pay_Scancode_Confirm" />
+        <activity android:name=".Pay_Scancode_Enter_pin" />
+        <activity android:name=".Pay_Scan_Code" />
+        <activity android:name=".Pay_Choose" />
+        <activity android:name=".BuyAirtime_Amount2" />
+        <activity android:name=".BuyAirtime_SelfConfirm" />
+        <activity android:name=".BuyAirtime_ConfirmTransaction" />
+        <activity android:name=".BuyAirtime_select_contacts" />
+        <activity android:name=".BuyAirtime_EnterPin" />
+        <activity android:name=".BuyAirtime_Amount" />
+        <activity android:name=".BuyAirtime" />
+        <activity android:name=".BuyAirtimeAction" />
+        <activity android:name=".Send_Money_Confirm" />
+        <activity android:name=".Send_Money_Enter_Pin" />
+        <activity android:name=".Send_Money_Set_Amount" />
+        <activity android:name=".Send_Money" />
+        <activity android:name=".Group_borrow_icon_activity" />
+        <activity android:name=".Group_borrow_button_activity" />
+        <activity android:name=".Group_depo_icon_activity" />
+        <activity android:name=".Group_deposit_button_activity" />
+        <activity android:name=".Group_pay_icon_activity" />
+        <activity android:name=".Group_pay" />
+        <activity android:name=".FinishNewGroup" />
+        <activity android:name=".Complete_new_Group" />
+        <activity android:name=".NewGroup" />
+        <activity android:name=".Groups" />
+        <activity android:name=".NewBudget" />
+        <activity android:name=".Budget" />
+        <activity android:name=".TopUpStep4" />
+        <activity android:name=".TopUpStep3" />
+        <activity android:name=".TopUpStep2" />
+        <activity android:name=".TopUpStep1" />
+        <activity android:name=".Add_Card" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

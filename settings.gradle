@@ -1,0 +1,8 @@
+include ':OpenCV'
+include ':app'
+rootProject.name = "Besha"
+include ':java'
+include ':java'
+include ':java'
+include ':java'
+include ':java'

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/budgetcard"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_470sdp"
+        app:cardCornerRadius="@dimen/_25sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/budgetName"
+            android:text="Budget name"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_marginRight="@dimen/_150sdp"
+            android:layout_marginLeft="@dimen/_15sdp"/>
+
+        <TextView
+            android:id="@+id/budgetitemamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Amount"
+            android:textColor="#FF0CF2" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/budgetitempic"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginVertical="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget Category"
+            android:layout_marginTop="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:id="@+id/budgetCategory"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
